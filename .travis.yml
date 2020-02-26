@@ -1,0 +1,15 @@
+os: osx
+
+install:
+- npm install -g expo-cli
+- npm i jest-expo --save-dev
+- npm install react-native-testing-library
+- npm install react-test-renderer
+- brew tap wix/brew
+- brew install applesimutils
+- npm install detox
+- npm install detox-expo-helpers
+- npm install expo-detox-hook
+
+script:
+- detox test
