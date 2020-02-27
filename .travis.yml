@@ -2,7 +2,6 @@ os: osx
 
 install:
 - npm install -g expo-cli
-- npm i jest-expo --save-dev
 - npm install react-native-testing-library
 - npm install react-test-renderer
 - brew tap wix/brew
