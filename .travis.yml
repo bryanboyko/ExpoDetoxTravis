@@ -10,5 +10,8 @@ install:
 - npm install detox-expo-helpers
 - npm install expo-detox-hook
 
+before_script:
+- ./setup.sh
+
 script:
 - detox test
