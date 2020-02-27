@@ -2,6 +2,7 @@ os: osx
 
 install:
 - npm install -g expo-cli
+- npm install jest-expo
 - npm install react-native-testing-library
 
 script:
