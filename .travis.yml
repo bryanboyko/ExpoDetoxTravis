@@ -1,5 +1,7 @@
 os: osx
 
+language: node_js
+
 install:
 - npm install jest-expo
 
